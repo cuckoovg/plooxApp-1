@@ -35,7 +35,7 @@ export default {
         return {
             field: {
                 label: __( 'Language Selection' ),
-                description: __( 'Select what will be the default language of BizeraPOS.' ),
+                description: __( 'Select what will be the default language of NexoPOS.' ),
                 name: 'language',
                 value: nsLang || 'en', // default language
                 options: Object.values( nsLanguages ).map( (value, index) => {

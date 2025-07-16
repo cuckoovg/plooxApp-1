@@ -13,13 +13,13 @@ $authentication     =   [
 ];
 
 $json               =   [
-    'ns_currency_symbol'                =>  $options->get( 'ns_currency_symbol', '$' ),
-    'ns_currency_iso'                   =>  $options->get( 'ns_currency_iso', 'USD' ),
+    'ns_currency_symbol'                =>  $options->get( 'ns_currency_symbol', 'Rp' ),
+    'ns_currency_iso'                   =>  $options->get( 'ns_currency_iso', 'IDR' ),
     'ns_currency_position'              =>  $options->get( 'ns_currency_position', 'before' ),
-    'ns_currency_thousand_separator'    =>  $options->get( 'ns_currency_thousand_separator', ',' ),
-    'ns_currency_decimal_separator'     =>  $options->get( 'ns_currency_decimal_separator', '.' ),
+    'ns_currency_thousand_separator'    =>  $options->get( 'ns_currency_thousand_separator', '.' ),
+    'ns_currency_decimal_separator'     =>  $options->get( 'ns_currency_decimal_separator', ',' ),
     'ns_currency_precision'             =>  $options->get( 'ns_currency_precision', '0' ),
-    'ns_currency_prefered'              =>  $options->get( 'ns_currency_prefered', 'iso' ),
+    'ns_currency_prefered'              =>  $options->get( 'ns_currency_prefered', 'symbol' ),
 ];
 ?>
 <script type="text/javascript">
