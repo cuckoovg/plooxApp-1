@@ -1,115 +1,135 @@
 #main-container, #page-container {
-    @apply bg-surface;
+    background-color: #112057; // biru sebagai surface utama
 }
 
 .card-widget {
     h1, h2, h3, h4, h5, h6, i {
-        @apply text-typography;
+        color: #FFA600; // oranye untuk heading/icon
     }
 }
 
 #dashboard-aside > div {
-    @apply bg-surface-hard;
+    background-color: #0d1a3a; // biru lebih gelap sebagai surface-hard
+
     .ns-aside-menu {
-        @apply text-slate-300 hover:bg-slate-700;
+        color: #FFA600;
+        &:hover {
+            background-color: #112057;
+        }
+
         &.toggled {
-            @apply border-slate-700 bg-slate-700;
+            border-color: #FFA600;
+            background-color: #112057;
         }
+
         &.normal {
-            @apply border-transparent;
+            border-color: transparent;
         }
+
         &.notification-label {
-            @apply bg-red-600 text-slate-300;
+            background-color: #FFA600;
+            color: #112057;
         }
     }
+
     .ns-aside-submenu {
-        @apply border-slate-700 bg-slate-800 hover:bg-slate-700 ;
-        &.active {
-            @apply text-slate-300;
+        border-color: #FFA600;
+        background-color: #0d1a3a;
+        &:hover {
+            background-color: #112057;
         }
+
+        &.active {
+            color: #FFA600;
+        }
+
         &.normal {
-            @apply text-slate-200;
+            color: #FFA600;
         }
     }
 }
 
 #dashboard-body {
-    @apply bg-surface;
+    background-color: #112057;
 }
 
 .ns-toggle-button {
-    @apply border-box-edge text-primary;
+    border-color: #FFA600;
+    color: #FFA600;
+
     &:hover {
-        @apply bg-tab-active border-transparent text-white;
+        background-color: #FFA600;
+        color: #112057;
+        border-color: transparent;
     }
 }
 
-.ns-avatar { 
-    @apply text-primary border-box-edge;
+.ns-avatar {
+    color: #FFA600;
+    border-color: #FFA600;
 
-    &:hover {
-        @apply bg-box-background text-primary border-transparent;
-    }
-
+    &:hover,
     &.toggled {
-        @apply bg-box-background text-primary border-transparent;
+        background-color: #0d1a3a;
+        color: #FFA600;
+        border-color: transparent;
     }
 }
 
 .pending-drag {
-    @apply border-transparent;
+    border-color: transparent;
 }
 .awaiting-drop {
-    @apply border-gray-200;
+    border-color: #FFA600;
 }
 .drag-over {
-    @apply border-gray-200;
+    border-color: #FFA600;
 }
 
-/**
- * Notifications Wrapper
-**/
+/** Notifications Wrapper **/
 
 #notificaton-wrapper {
     #notification-button {
         &.panel-visible {
-            @apply bg-box-background;
+            background-color: #0d1a3a;
         }
         &.panel-hidden {
-            @apply border-box-edge;
+            border-color: #FFA600;
         }
 
         &:hover {
-            @apply bg-box-background text-primary;
+            background-color: #0d1a3a;
+            color: #FFA600;
         }
 
-        @apply text-primary;
+        color: #FFA600;
     }
 
     #notification-center > div > div {
-        @apply bg-box-background;
+        background-color: #0d1a3a;
     }
 
     .clear-all {
-        @apply text-primary;
+        color: #FFA600;
 
         &:hover {
-            @apply bg-input-button-hover text-typography;
+            background-color: #FFA600;
+            color: #112057;
         }
     }
 
     .notification-card {
         h1 {
-            @apply text-secondary;
+            color: #FFA600;
         }
         p {
-            @apply text-primary;
+            color: #FFA600;
         }
 
         .date {
-            @apply text-secondary;
+            color: #FFA600;
         }
-    
-        @apply border-box-edge;
+
+        border-color: #FFA600;
     }
 }
