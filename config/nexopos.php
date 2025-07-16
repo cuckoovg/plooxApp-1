@@ -9,7 +9,7 @@ return [
      * This is the core version of NexoPOS. This is used to displays on the
      * dashboard and to ensure a compatibility with the modules.
      */
-    'version' => '5.3.2',
+    'version' => '1.0',
 
     /**
      * --------------------------------------------------------------------
@@ -22,6 +22,7 @@ return [
      */
     'languages' => [
         'en' => 'English',
+        'id' => 'Indonesia',
         'de' => 'Deutsch',
         'fr' => 'Français',
         'es' => 'Espanol',

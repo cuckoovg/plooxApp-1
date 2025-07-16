@@ -4,7 +4,7 @@
     <div id="page-container" class="h-full w-full flex">
         <div class="container flex-auto flex-col items-center justify-center flex m-4 sm:mx-auto">
             <div class="flex justify-center items-center py-6">
-                <img class="w-64" src="{{ asset( 'svg/plooxPOS.svg' ) }}" alt="NexoPOS">
+                <img class="w-64" src="{{ asset( 'svg/Logo-BIZERA.svg' ) }}" alt="BizeraPOS">
             </div>
             <div class="ns-box rounded shadow w-full md:w-1/2 lg:w-1/3 overflow-hidden">
                 <div id="section-header" class="ns-box-header p-4">

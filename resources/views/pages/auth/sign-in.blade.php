@@ -17,9 +17,9 @@ Hook::action( 'ns.after-login-fields', $afterForm );
             <div id="sign-in-box" class="w-full md:w-3/5 lg:w-2/5 xl:w-84">
                 <div class="flex justify-center items-center py-6">
                     @if ( ! ns()->option->get( 'ns_store_square_logo', false ) )
-                    <img class="w-64" src="{{ asset( 'svg/plooxPOS.svg' ) }}" alt="NexoPOS">
+                    <img class="w-64" src="{{ asset( 'svg/Logo-BIZERA.svg' ) }}" alt="Bizera">
                     @else
-                    <img src="{{ ns()->option->get( 'ns_store_square_logo' ) }}" alt="NexoPOS">
+                    <img class="w-64" src="{{ asset( 'svg/nexopos-variant-2.svg' ) }}" alt="Bizera">
                     @endif
                 </div>
                 <x-session-message></x-session-message>
